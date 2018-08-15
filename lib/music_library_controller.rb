@@ -32,10 +32,6 @@ class MusicLibraryController
       list_songs_by_genre
     when 'play_song'
       play_song
-    else
-      until @input == "exit"
-        @input = gets.strip
-      end
     end
   end
 
