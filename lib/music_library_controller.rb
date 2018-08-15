@@ -33,10 +33,6 @@ class MusicLibraryController
     when 'play_song'
       play_song
     end
-
-    until @input == "exit"
-      @input = gets.strip
-    end
   end
 
 
