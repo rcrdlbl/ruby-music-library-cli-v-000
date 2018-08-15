@@ -1,3 +1,4 @@
+require 'pry'
 class MusicLibraryController
   attr_accessor :path, :importer, :input
 
@@ -100,3 +101,4 @@ class MusicLibraryController
 
 
 end
+binding.pry
